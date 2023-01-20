@@ -24,7 +24,9 @@ export default function PostsRoute() {
         <ul>
           {posts.map((post) => (
             <li key={post.id}>
-              <Link to={post.id}>{post.title}</Link>
+              <Link to={post.id} prefetch='intent'>
+                {post.title}
+              </Link>
             </li>
           ))}
         </ul>
