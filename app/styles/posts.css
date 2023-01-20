@@ -1,0 +1,41 @@
+#posts {
+  display: flex;
+  flex-direction: row;
+}
+
+.posts-list {
+  flex-basis: 18%;
+}
+
+.posts-detail {
+  flex-basis: 82%;
+}
+
+.posts-detail p {
+  margin-top: 0.75em;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 0.75em;
+  margin-right: 0.75em;
+}
+
+ul li:first-child {
+  margin: 0.75em 0.75em 0.75em 0px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  height: 40px;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  color: black;
+}
+
+a:hover {
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+}
